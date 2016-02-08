@@ -996,7 +996,7 @@ p {
   margin-top: -7px; }
 
 section.about {
-  background-image: url(/img/hero.png);
+  background-image: url(../img/hero.png);
   background-size: cover;
   background-position: center bottom;
   height: 90vh; }
