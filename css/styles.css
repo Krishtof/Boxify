@@ -1127,3 +1127,14 @@ section.about .container {
   text-align: center; }
 #mc_embed_signup_scroll .clear {
   text-align: center; }
+
+.new_old {
+  text-align: center; }
+  .new_old h3 {
+    margin-top: 66px;
+    margin-bottom: 31px; }
+  .new_old #old {
+    background-color: #f2f2f2;
+    height: 400px; }
+  .new_old #new {
+    background-color: white; }
