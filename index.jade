@@ -96,10 +96,10 @@ html.no-js
       // open/close
       .container-fluid
         .row.new_old
-          .col-md-6#old
+          .col-md-6#old.show
             h3 The old way
             img(src='img/oldway.png', alt='old way placeholder')
-          .col-md-6#new
+          .col-md-6#new.show
             h3 The new way
             img(src='img/newway.png', alt='new way placeholder')
       section.features-intro
@@ -110,20 +110,18 @@ html.no-js
                 .texture-overlay
                 .features-img.wp1
                   img(style="max-width: 70px;")(src='img/Cr_logo_small.png', alt='ct Logo')
-            .col-md-6.nopadding
-              .features-slider
-                ul#featuresSlider.slides
-                  li
+            .col-md-6.nopadding.gallery.js-flickity(data-flickity-options='{ "setGallerySize": false }')
+                  .gallery-cell
                     h3.secondtitle How can Crowdtalk find the target group I define?
                     p
                       | Crowdtalk has an automated algorythm that uses google ads and social media to find the people you defined as a target group. This makes your job far easier, all you need to do is telling us who you are looking for. 
 
-                  li
+                  .gallery-cell
                     h3.secondtitle Why would customers fill out the forms created with Crowdtalk?
                     p
                       | Customers are rewarded with a certain amount of money you define. This is the incentive that will motivate them to answer the questions. The amount you defined as a prize appears automaticaly on the account of the customers.  
                       
-                  li
+                  .gallery-cell
                     h3.secondtitle How will I see the result of a campaign?
                     p
                       | After a customer filled out a form you have created, your dashboard is updated with the new data, and the reports you requested get updated right away.

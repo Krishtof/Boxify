@@ -1205,3 +1205,50 @@ section.about .container
 
   #new
     background-color: white
+
+  .show
+    opacity: 0
+    transform: translateY(80px)
+    transition: all 0.4s ease-in-out
+
+    &.is-showing
+      opacity: 1
+      transform: translateY(0px)
+
+
+.gallery-cell 
+  width: 100%
+  height: 400px
+  margin-right: 10px
+  background-color: #191919
+  counter-increment: gallery-cell
+  padding: 180px
+  padding-top: 100px
+
+  p
+    color: white
+
+
+.flickity-page-dots 
+  bottom: 0
+
+  .dot 
+    width: 12px
+    height: 12px
+    opacity: 1
+    background: transparent
+    border: 2px solid white
+
+    &.is-selected 
+      background: white
+
+.flickity-viewport
+  height: 400px !important
+
+.flickity-prev-next-button.previous
+  left: 50px
+.flickity-prev-next-button.next
+  right: 50px
+
+.flickity-page-dots
+  bottom: 40px

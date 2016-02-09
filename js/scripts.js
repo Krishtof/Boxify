@@ -1,5 +1,24 @@
 $(document).ready(function() {
 
+
+//Homepage icon animations
+$(window).scroll(function(){
+
+  var wScroll = $(this).scrollTop();
+
+  if(wScroll > $('.show').offset().top - ($(window).height() / 1.2)) {
+
+    $('.show').each(function(i){
+
+      setTimeout(function(){
+        $('.show').eq(i).addClass('is-showing');
+      }, (3000 * (Math.exp(i * 0.14))) - 3000);
+    });
+
+  }
+});
+
+
 	/***************** Waypoints ******************/
 
 	$('.wp1').waypoint(function() {
