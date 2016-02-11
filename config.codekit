@@ -464,6 +464,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/hero2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22790,
+		"inputAbbreviatedPath": "\/img\/hero2.png",
+		"outputAbbreviatedPath": "\/img\/hero2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/html5-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -669,6 +680,17 @@
 		"initialSize": 27177,
 		"inputAbbreviatedPath": "\/img\/oldway.png",
 		"outputAbbreviatedPath": "\/img\/oldway.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/oldway_sm.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30495,
+		"inputAbbreviatedPath": "\/img\/oldway_sm.png",
+		"outputAbbreviatedPath": "\/img\/oldway_sm.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

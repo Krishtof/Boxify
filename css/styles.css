@@ -985,6 +985,9 @@ p {
   color: #404040;
   font-size: 16.4px; }
 
+@media (max-width: 992px) {
+  p {
+    font-size: 21px; } }
 .navbar-default {
   margin-bottom: 0px;
   background-color: #333840;
@@ -1001,6 +1004,12 @@ section.about {
   background-position: center bottom;
   height: 90vh; }
 
+@media (max-width: 422px) {
+  section.about {
+    background-image: url(../img/hero2.png);
+    background-size: cover;
+    background-position: center bottom;
+    height: 90vh; } }
 section.about .container {
   height: 100%;
   width: 100%;
@@ -1075,24 +1084,18 @@ section.about .container {
   height: 40px; }
 
 @media (max-width: 992px) {
+  section.about {
+    margin-top: -60px; } }
+@media (max-width: 992px) {
   #one {
-    display: non;
-    top: 404px;
-    height: 466px; }
+    display: none; }
 
   #one p {
     padding-top: 30px; }
 
   #two {
-    top: -691px;
-    margin-left: 47vw; } }
-@media (max-width: 422px) {
-  #two {
-    top: -769px;
-    margin-left: 43vw; } }
-@media (max-width: 992px) {
-  section.about {
-    margin-top: -160px; } }
+    margin-left: 3vw;
+    margin-top: 28vw; } }
 .navfluid {
   height: 70px;
   padding-top: 10px;
@@ -1131,21 +1134,52 @@ section.about .container {
 .new_old {
   text-align: center; }
   .new_old h3 {
-    margin-top: 66px;
-    margin-bottom: 31px; }
+    padding-top: 66px;
+    margin-bottom: 31px;
+    margin-top: 0px; }
   .new_old #old {
     background-color: #f2f2f2;
     height: 400px; }
-  .new_old #new {
-    background-color: white; }
-  .new_old .show {
-    opacity: 0;
-    transform: translateY(80px);
-    transition: all 0.4s ease-in-out; }
-    .new_old .show.is-showing {
-      opacity: 1;
-      transform: translateY(0px); }
 
+#oldbg {
+  background-image: url(../img/oldway.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px; }
+
+#new {
+  background-color: white; }
+
+#newbg {
+  background-image: url(../img/newway.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px; }
+
+.show {
+  opacity: 0;
+  transform: translateY(80px);
+  transition: all 0.4s ease-in-out; }
+  .show.is-showing {
+    opacity: 1;
+    transform: translateY(0px); }
+
+@media (max-width: 550px) {
+  #newbg {
+    background-image: url(../img/newway_sm.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50%; }
+
+  #oldbg {
+    background-image: url(../img/oldway_sm.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50%; } }
 .gallery-cell {
   width: 100%;
   height: 400px;
