@@ -1046,7 +1046,7 @@ p
 
 @media (max-width: 992px)
   p
-    font-size: 21px
+    font-size: 16px
 
 .navbar-default
   margin-bottom: 0px
@@ -1107,7 +1107,7 @@ section.about .container
   position: relative
   color: rgba(31, 33, 37, 0.69)
   color: white
-  margin-top: 270px
+  margin-top: 23vh
   max-width: 80%
   padding-left: 15%
   padding-right: 25px
@@ -1129,8 +1129,7 @@ section.about .container
 
 #two
   min-with: 270px
-  margin-top: 250px
-  margin-left: 17vw
+  margin-top: 23vh
 
 .btn-default
   border-radius: 0px
@@ -1155,12 +1154,17 @@ section.about .container
 
   #one p
     padding-top: 30px
+
+
+
+@media (min-width:420px)
   #two
-    margin-left: 3vw
-    margin-top: 28vw
+    margin-left: 45vw
 
 
-
+@media (min-width: 992px)
+  #two
+    margin-left: 18vw
 
 
 .navfluid
@@ -1173,8 +1177,7 @@ section.about .container
   color: white
 
 @media (max-width: 991px)
-  #featuresintro
-    margin-top: 373px
+
 
   #one h1
     top: 30px
@@ -1247,17 +1250,23 @@ section.about .container
 
   #newbg
     background-image: url(../img/newway_sm.png)
-    background-size: contain
+    background-size: cover
     background-repeat: no-repeat
     background-position: center
-    height: 50%
+    height: 62%
 
   #oldbg
     background-image: url(../img/oldway_sm.png)
-    background-size: contain
+    background-size: cover
     background-repeat: no-repeat
     background-position: center
-    height: 50%
+    height: 77%
+
+  .new_old #old
+    height: 560px
+
+  .new_old #new
+    height: 560px
 
 .gallery-cell 
   width: 100%
@@ -1271,6 +1280,22 @@ section.about .container
   p
     color: white
 
+@media (max-width: 992px)
+  .gallery-cell
+    width: 110%
+    height: 400px
+    margin-right: 0px
+    background-color: #191919
+    counter-increment: gallery-cell
+    padding: 50px
+    padding-top: 30px
+
+  .flickity-prev-next-button
+    top: 87%
+
+@media (max-width: 1400px)
+  .gallery-cell
+    padding-top: 40px
 
 .flickity-page-dots 
   bottom: 0
