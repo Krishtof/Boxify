@@ -1009,7 +1009,10 @@ section.about {
     background-image: url(../img/hero2.png);
     background-size: cover;
     background-position: center bottom;
-    height: 90vh; } }
+    height: 90vh; }
+
+  section.about .container {
+    background-color: #FFDC4E; } }
 section.about .container {
   height: 100%;
   width: 100%;
