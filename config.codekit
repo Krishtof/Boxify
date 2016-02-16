@@ -497,6 +497,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/iMac.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 254743,
+		"inputAbbreviatedPath": "\/img\/iMac.png",
+		"outputAbbreviatedPath": "\/img\/iMac.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/iphone-skeleton.png": {
 		"fileType": 32768,
 		"ignore": 0,

@@ -57,35 +57,20 @@ html.no-js
           #bs-example-navbar-collapse-1.collapse.navbar-collapse
        
       section.about
-        .container
-          .col-md-4#one
-            h1 Stay tuned!
-            p We are working hard to launch Crowdtalk as early as possible for everyone. <br><br> Sign up now and get early membership!
-            form
-              // Begin MailChimp Signup Form
-            #mc_embed_signup
-              form#mc-embedded-subscribe-form.validate(action='//albumer.us8.list-manage.com/subscribe/post?u=145fe3b5500fb6f343a7be5e4&id=3c3b3bcb07', method='post', name='mc-embedded-subscribe-form', target='_blank', novalidate='')
-                #mc_embed_signup_scroll
-                  .mc-field-group
-                    input#mce-EMAIL.required.email(type='email', placeholder='Your email address', value='', name='EMAIL')
-                  #mce-responses.clear
-                    #mce-error-response.response(style='display:none')
-                    #mce-success-response.response(style='display:none')
-                  // real people should not fill this in and expect good things - do not remove this or risk form bot signups
-                  div(style='position: absolute; left: -5000px;', aria-hidden='true')
-                    input(type='text', name='b_145fe3b5500fb6f343a7be5e4_3c3b3bcb07', tabindex='-1', value='')
-                  .clear
-                    input#mc-embedded-subscribe.button(type='submit', value='Subscribe', name='subscribe')
-            // End mc_embed_signup
+        .container.yellow
+          .col-md-12
+            .container
+              .col-md-6
+                .container
+                  .col-md-12#one
+              .col-md-6#two
+                h2
+                  | Market research 
+                  br
+                  |  was never so 
+                  span.txt-rotate(data-period='2000', data-rotate='[ "agile.", "affordable.", "fast.", "reliable." ]')
 
-          .col-md-5#two
-            h2
-              | Market research 
-              br
-              |  was never so 
-              span.txt-rotate(data-period='2000', data-rotate='[ "agile.", "affordable.", "fast.", "reliable." ]')
-
-            p A market research tool that allows you to create online surveys, target specific groups and folow up results live in the cloud.
+                p A market research tool that allows you to create online surveys, target specific groups and folow up results live in the cloud.
       //if lt IE 7
         p.browsehappy
           | You are using an 

@@ -998,21 +998,6 @@ p {
   max-height: 40px;
   margin-top: -7px; }
 
-section.about {
-  background-image: url(../img/hero.png);
-  background-size: cover;
-  background-position: center bottom;
-  height: 90vh; }
-
-@media (max-width: 422px) {
-  section.about {
-    background-image: url(../img/hero2.png);
-    background-size: cover;
-    background-position: center bottom;
-    height: 90vh; }
-
-  section.about .container {
-    background-color: #FFDC4E; } }
 section.about .container {
   height: 100%;
   width: 100%;
@@ -1024,16 +1009,13 @@ section.about .container {
   background-color: red; }
 
 #one {
-  background-color: #E6E6E6;
-  background-image: url("../img/bg1.jpg");
-  background-position: right;
-  height: 100%;
+  background-image: url("../img/imac.png");
+  background-size: 48vw;
+  height: 44vw;
+  background-position-y: 46px;
   position: relative;
-  box-shadow: 3px 0px 23px rgba(2, 2, 2, 0.73); }
+  background-repeat: no-repeat; }
 
-@media (min-width: 992px) {
-  #one {
-    width: 35%; } }
 #one p {
   position: relative;
   color: rgba(31, 33, 37, 0.69);
@@ -1070,7 +1052,8 @@ section.about .container {
 
 #two {
   min-with: 270px;
-  margin-top: 23vh; }
+  margin-top: 11vw;
+  max-width: 650px; }
 
 .btn-default {
   border-radius: 0px;
@@ -1089,17 +1072,8 @@ section.about .container {
   section.about {
     margin-top: -60px; } }
 @media (max-width: 992px) {
-  #one {
-    display: none; }
-
   #one p {
     padding-top: 30px; } }
-@media (min-width: 420px) {
-  #two {
-    margin-left: 45vw; } }
-@media (min-width: 992px) {
-  #two {
-    margin-left: 18vw; } }
 .navfluid {
   height: 70px;
   padding-top: 10px;
@@ -1235,3 +1209,33 @@ section.about .container {
 
 .flickity-page-dots {
   bottom: 40px; }
+
+.about .yellow {
+  -webkit-box-shadow: inset -1px -112px 0px -1px #FFDC4E;
+  -moz-box-shadow: inset -1px -112px 0px -1px #FFDC4E;
+  box-shadow: inset -1px -112px 0px -1px #FFDC4E; }
+
+@media (max-width: 992px) {
+  #two {
+    padding-left: 50px;
+    max-width: 650px;
+    padding-right: 10PX;
+    padding-bottom: 20px;
+    margin-top: 0px; }
+
+  #one {
+    background-image: url("../img/imac.png");
+    background-size: cover;
+    height: 50vw;
+    background-position-y: 36px;
+    position: relative;
+    background-repeat: no-repeat;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-bottom: 1px solid #E8E8E8; }
+
+  .about .yellow {
+    border-bottom: 14px solid #FFDC4E;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none; } }
