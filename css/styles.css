@@ -1223,9 +1223,9 @@ section.about .container {
   background-size: cover;
   background-repeat: no-repeat;
   height: 44vw;
-  -webkit-box-shadow: 0px 0px 8px 0 black;
-  -moz-box-shadow: 0px 0px 8px 0 black;
-  box-shadow: 0px 0px 8px 0 black; }
+  -webkit-box-shadow: inset -1px -112px 0px -1px #FFDC4E;
+  -moz-box-shadow: inset -1px -112px 0px -1px #FFDC4E;
+  box-shadow: inset -1px -112px 0px -1px #FFDC4E; }
 
 .yellow > .col-md-12 {
   padding-right: 0px;
