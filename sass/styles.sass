@@ -1042,11 +1042,11 @@ h3
 p
   font-family: Proxima
   color: #404040
-  font-size: 16.4px
+  font-size: 18.4px
 
 @media (max-width: 992px)
   p
-    font-size: 16px
+    font-size: 18px
 
 .navbar-default
   margin-bottom: 0px
@@ -1116,6 +1116,10 @@ section.about .container
   min-with: 270px
   margin-top: 11vw
   max-width: 650px
+  margin-left: 4vw
+
+  h2, p
+    color: white
 
 .btn-default
   border-radius: 0px
@@ -1307,10 +1311,23 @@ section.about .container
     box-shadow: inset -1px -112px 0px -1px #FFDC4E
 
 
+
+#bg
+  background-image: url("../img/bg1.jpg")
+  background-size: cover
+  background-repeat: no-repeat
+  height: 44vw  
+  -webkit-box-shadow: 0px 0px 8px 0 black
+  -moz-box-shadow: 0px 0px 8px 0 black
+  box-shadow: 0px 0px 8px 0 black
+
+.yellow>.col-md-12
+  padding-right: 0px
+  padding-left: 0px
+
 @media (max-width: 992px)
   #two
-    padding-left: 50px
-    max-width: 650px
+    max-width: 710px
     padding-right: 10PX
     padding-bottom: 20px
     margin-top: 0px
@@ -1331,3 +1348,6 @@ section.about .container
     box-shadow: none
     -moz-box-shadow: none
     -webkit-box-shadow: none
+
+  #bg
+    height: 50vh
