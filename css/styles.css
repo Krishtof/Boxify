@@ -1253,7 +1253,8 @@ section.about .container {
     border-bottom: 14px solid #FFDC4E;
     box-shadow: none;
     -moz-box-shadow: none;
-    -webkit-box-shadow: none; }
+    -webkit-box-shadow: none;
+    box-shadow: none; }
 
   #bg {
     height: 50vh; } }
